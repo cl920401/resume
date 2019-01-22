@@ -1,0 +1,136 @@
+%% start of file `resume.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                       % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+%windows 字符编码配置
+%\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+%\usepackage{CJKutf8}
+% 字符编码
+\usepackage[UTF8, heading = false, scheme = plain]{ctex}
+\setCJKmainfont{Hiragino Sans GB}
+
+% 调整页面出血
+\usepackage[scale=0.9]{geometry}
+\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+\linespread{1.5}
+
+% 个人信息
+\name{个人简历}{陈亮}
+\title{高级后端研发工程师}                     % 可选项、如不需要可删除本行
+\address{北京}{朝阳区}            % 可选项、如不需要可删除本行
+\photo[64pt][0.1pt]{avatar}                  % ‘64pt’是图片必须压缩至的高度、‘0.4pt‘是图片边框的宽度 (如不需要可调节至0pt)、’picture‘ 是图片文件的名字;可选项、如不需要可删除本行
+
+% 显示索引号;仅用于在简历中使用了引言
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% 分类索引
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK}{UTF8}{gbsn}                       % windows配置
+\maketitle{\vspace*{-2.5em}}
+
+\section{个人信息}
+\cvdoubleitem{手机/微信}{+86~189~8612~0001}{邮箱}{cl920401@163.com}
+\cvdoubleitem{link}{https://github.com/cl920401}{QQ}{408194766}
+\cvitem{工作年限}{4年}
+
+\section{教育背景}
+\cvitem{2010.6--2014.6}{江汉大学--自动化/武汉理工大学--电子商务~本科(双学位)}
+\cvitem{2013.5--2015.5}{自学C++、windows内核、x86汇编逆向等技术}
+
+\section{工作技能}
+\cvitem{英语水平}{\emph{CET-4，可以阅读英文文档和英文材料，能够阅读和撰写英文邮件。} }
+\cvitem{编程技能}{%
+\begin{itemize}%
+    \item 开发语言:(按了解程度排序)c++、golang、java、x86汇编、arm汇编、python、js
+    \item 开发平台:linux、window、android
+    \item 开发技能:nginx、mysql、redis、mongoDB、shell、git、svn等
+\end{itemize}}
+{\vspace*{-1.5em}}
+\section{项目经验}
+
+\subsection{\textbf{DMP平台}}
+\cventry{}{Golang后端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{DMP平台是提供给部门内部人员使用的管理后台，接入了部门所有的后台页面，为各个业务线提供统一的账号体系、邮件提醒、权限配置等基础功能。}
+\cvitem{工作内容}{负责大部分权限管理相关接口，有时也需要协助对接的业务后台开发，如帮助广告核算平台接入facebook广告成效分析接口等。}
+\cvitem{技术栈}{golang、linux、mysql、redis、git}
+
+\subsection{\textbf{icfun、趣游戏}}
+\cventry{}{Java后端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{一款安卓小游戏集合软件，googleplay已上线，搜索Icfun可以体验，国内版小米商店搜索趣游戏。}
+\cvitem{工作内容}{从框架设计到对接客户端到开发上线包括后期的线上修复，全流程参与，承担了整个团队80\%的工作量，完成了账号体系，盒子主页和游戏列表的配置下发，以及在线自动匹配和手动开房间进行游戏（websocket）等。由于产品策略，国内版不支持多人对战。}
+\cvitem{技术栈}{java (spring、netty)、linux、nginx、mysql、redis、falcon、git}
+
+\subsection{\textbf{清理云服务}}
+\cventry{}{后端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{清理云控制猎豹清理大师的清理规则，老的核心业务，数据量较大，但是开发思路陈旧，坑也很多。}
+\cvitem{工作内容}{文档缺失严重的情况下，维护上百台机器正常运行，根据已知源码分析解决和跟进反馈的问题。}
+\cvitem{技术栈}{golang、python、c++、java、php、linux、nginx、mysql、redis、mongodb、git}
+
+\subsection{\textbf{区块链相关}}
+\cventry{}{后端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{18年公司对区块链做了很多尝试，其中参与了很多很杂的项目，包括去中心化交易所的实时价格抓取和涨跌推送，Dapp后端(社交聊天模块)，Eth自建节点的优化等}
+\cvitem{工作内容}{区块链相关的项目比较杂，但也打开了眼界，学到很多以前接触不到的技术点。其中主要涉及到的技术点有，安卓ios的推送原理，signal聊天加密协议源码阅读，eth交易过程源码阅读、自学前端vue.js完成后台页面、docker服务的打包和分布式部署等。}
+\cvitem{技术栈}{python、java、go、vue.js、linux、android、docker、nginx、mongodb、PostgreSQL、redis、mysql、git}
+%\newpage
+\subsection{\textbf{猎豹游戏盒子}}
+\cventry{}{C++ windows客户端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{一款页游平台win客户端，支持游戏加速，游戏辅助等。}
+\cvitem{工作内容}{独立从0到1完成开发上线，完成登录注册，小号管理，截图，视野缩放，游戏加速，游戏挂机(敏感问题，此功能没有上线)等功能，项目到后期开始自学go语言，完成一些简单的后端业务接口，为转岗服务端奠定了基础。另外同时也在维护一款内置在金山毒霸的金山游戏盒子，因为项目老，需求较少，在简历中省略。}
+\cvitem{技术栈}{c++、js、golang、windows、SOUI、IE内核、svn}
+
+\newpage
+\subsection{\textbf{hao123桔子浏览器}}
+\cventry{}{C++ windows客户端研发工程师}{}{}{}{}
+\cvitem{项目介绍}{当时是hao123官方浏览器，基于IE内核，主打安装包体积小，安装包不到2M。}
+\cvitem{工作内容}{参与产品的开发迭代，并且修复现有bug，参与的开发任务主要有双核版的预研和开发、自动化构建打包平台和截图、视频下载、图片放大器等特色功能点。其中最大的收获是学习了部分chrome源码，了解到开源的魅力。}
+\cvitem{技术栈}{c++、js、php、python、windows、WTL、IE内核、chrome内核、svn}
+
+\section{工作经历}
+\cventry{2017.12----至今}{猎豹移动}{高级Golang后端研发}{T4}{}{}
+\cvitem{}{后端接口开发、服务器维护、技术架构、devops、技术分享等}
+\cvitem{}{负责工具后端组的需求预研、开发和维护等，同时也负责游戏后端组的后端开发、框架搭建、devops建设等工作}
+\cventry{2016.7--2017.12}{猎豹移动}{高级C++客户端研发}{T4}{}{}
+\cvitem{}{客户端研发、产品迭代跟进、技术文档等}
+\cvitem{}{主要负责windows平台两个游戏盒子产品迭代的开发和bug修复工作}
+\cventry{2015.5----2016.7}{四象联创}{C++客户端研发}{}{}{}
+\cvitem{}{客户端研发、团队技术交接等}
+\cvitem{}{主要负责PC浏览器产品迭代的开发和bug修复工作}
+\cventry{}{}{}{}{}{}
+
+\section{自我评价}
+\cvitem{}{能熟练运用c++、java、golang、python、汇编等语言解决相对复杂的需求，其中对c++和golang有浓厚的兴趣，理解会更为深入一些。对于nginx、redis、mysql、git、docker等常用的工具和数据库也有自己的见解。有一定的架构思维，了解devop，能从0开始搭建后端开发框架。开发思路清晰，学习能力强，对于新接触的框架和语言都能快速上手，并且善于理解实现原理，避开部分坑。能迅速响应需求拥抱变化，高效率与合作部门沟通。另外有两年的windows桌面浏览器开发经验，熟悉chrome内核源码，有内核定制能力。工作前也自学了windows内核和汇编等底层技术。总的来说知识体系比较全面，学习能力很强。}
+
+% 来自BibTeX文件但不使用multibib包的出版物
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% BibTeX的数字标签
+              % 'publications' 是BibTeX文件的文件名
+
+% 来自BibTeX文件并使用multibib包的出版物
+%\section{出版物}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}               % 'publications' 是BibTeX文件的文件名
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}               % 'publications' 是BibTeX文件的文件名
+
+\clearpage%\end{CJK}  %windows配置
+\end{document}
+
+%% 文件结尾 `resume.tex'.
