@@ -10,7 +10,7 @@
             <key>kind</key>
             <string>software-package</string>
             <key>url</key>
-            <string>http://www.mylocal.com:8080/com.cl.NewT66y.---/e1a88f7f8ab50cac/ipa.ipa</string>
+            <string>https://www.mylocal.com/com.cl.NewT66y.---/e1a88f7f8ab50cac/ipa.ipa</string>
           </dict>
           <dict>
             <key>kind</key>
@@ -18,7 +18,7 @@
             <key>needs-shine</key>
             <true/>
             <key>url</key>
-            <string>http://www.mylocal.com:8080/com.cl.NewT66y.---/e1a88f7f8ab50cac/icon.png</string>
+            <string>https://www.mylocal.com/com.cl.NewT66y.---/e1a88f7f8ab50cac/icon.png</string>
           </dict>
         </array>
         <key>metadata</key>
