@@ -48,74 +48,91 @@
 \section{个人信息}
 \cvdoubleitem{手机/微信}{+86~189~8612~0001}{邮箱}{cl920401@163.com}
 \cvdoubleitem{link}{https://github.com/cl920401}{QQ}{408194766}
-\cvitem{工作年限}{4年}
+\cvitem{工作年限}{4.5年}
 
 \section{教育背景}
 \cvitem{2010.6--2014.6}{江汉大学--自动化/武汉理工大学--电子商务~本科(双学位)}
-\cvitem{2013.5--2015.5}{自学C++、windows内核、x86汇编逆向等技术}
 
 \section{工作技能}
 \cvitem{英语水平}{\emph{CET-4，可以阅读英文文档和英文材料，能够阅读和撰写英文邮件。} }
 \cvitem{编程技能}{%
 \begin{itemize}%
-    \item 开发语言:(按了解程度排序)c++、golang、java、x86汇编、arm汇编、python、js
-    \item 开发平台:linux、window、android
-    \item 开发技能:nginx、mysql、redis、mongoDB、shell、git、svn等
+    \item 开发语言:(按了解程度排序)golang、c++、java、x86汇编、arm汇编、python、js
+    \item 开发平台:linux、windows
+    \item 开发技能:nginx、mysql、redis、mongoDB、k8s、shell、git、svn等
 \end{itemize}}
-{\vspace*{-1.5em}}
+
 \section{项目经验}
 
+\subsection{\textbf{OrionBase}}
+\cventry{}{Golang Web后台开发}{}{}{}{}
+\cvitem{项目介绍}{OrionBase是一个机器人开发者平台，主要支持对机器人的远程发布和操作，并且提供查看崩溃，数据总览，监控预警等基础服务}
+\cvitem{工作内容}{主要负责权限和账号体系的设计和研发，以及各种业务数据聚合接口的开发和其他功能的维护工作。值得一提的是，这个项目用了微服务架构的思路，网关统一在kong配置，后面代理了多个微服务}
+\cvitem{技术栈}{golang、linux、k8s、docker、mysql、redis、git}
+
+\newpage
 \subsection{\textbf{DMP平台}}
-\cventry{}{Golang后端研发工程师}{}{}{}{}
-\cvitem{项目介绍}{DMP平台是提供给部门内部人员使用的管理后台，接入了部门所有的后台页面，为各个业务线提供统一的账号体系、邮件提醒、权限配置等基础功能。}
-\cvitem{工作内容}{负责大部分权限管理相关接口，有时也需要协助对接的业务后台开发，如帮助广告核算平台接入facebook广告成效分析接口等。}
-\cvitem{技术栈}{golang、linux、mysql、redis、git}
+\cventry{}{Golang Web后台及组件开发}{}{}{}{}
+\cvitem{项目介绍}{公司工具类app的中台系统，自建内部账号体系，支持产品运营将各种不同类型的工具app快速完成从0到上线，并且支持后期的通用运营维护工作，整个中台涵盖了应用的创建和管理平台、广告投放核算平台、配置下发接口数据的运营平台等}
+\cvitem{工作内容}{主要负责权限账号系统的研发和接入，也参与过广告平台（对接facebookAPI）、运营后台（kafka数据流，消息队列组件）等业务平台的研发}
+\cvitem{技术栈}{golang、java、linux、mysql、redis、kafka、git}
+
+\subsection{\textbf{多款工具APP后端}}
+\cventry{}{Java、Golang后端开发}{}{}{}{}
+\cvitem{项目介绍}{支持过公司多款工具APP的后端研发，由于性质类似，合为一个项目}
+\cvitem{工作内容}{RestfulAPI的研发，基本上都是CRUD接口，以及花样CRUD，DAU最多的也只有差不多几十万的量。主要的收获还是沟通，协作，业务能力这块的成长}
+\cvitem{技术栈}{java (spring、netty)、golang、linux、nginx、mysql、redis、falcon、git}
 
 \subsection{\textbf{icfun、趣游戏}}
 \cventry{}{Java后端研发工程师}{}{}{}{}
-\cvitem{项目介绍}{一款安卓小游戏集合软件，googleplay已上线，搜索Icfun可以体验，国内版小米商店搜索趣游戏。}
-\cvitem{工作内容}{从框架设计到对接客户端到开发上线包括后期的线上修复，全流程参与，承担了整个团队80\%的工作量，完成了账号体系，盒子主页和游戏列表的配置下发，以及在线自动匹配和手动开房间进行游戏（websocket）等。由于产品策略，国内版不支持多人对战。}
+\cvitem{项目介绍}{一款安卓小游戏集合软件，googleplay已上线，搜索Icfun可以体验，国内版小米商店搜索趣游戏}
+\cvitem{工作内容}{从框架设计到对接客户端到开发上线包括后期的线上修复，全流程参与，承担了整个团队80\%的工作量，完成了账号体系，盒子主页和游戏列表的配置下发，以及在线自动匹配和手动开房间进行游戏（websocket）等。由于产品策略，国内版不支持多人对战}
 \cvitem{技术栈}{java (spring、netty)、linux、nginx、mysql、redis、falcon、git}
 
 \subsection{\textbf{清理云服务}}
-\cventry{}{后端研发工程师}{}{}{}{}
-\cvitem{项目介绍}{清理云控制猎豹清理大师的清理规则，老的核心业务，数据量较大，但是开发思路陈旧，坑也很多。}
-\cvitem{工作内容}{文档缺失严重的情况下，维护上百台机器正常运行，根据已知源码分析解决和跟进反馈的问题。}
+\cventry{}{多个后端模块维护}{}{}{}{}
+\cvitem{项目介绍}{清理云用于控制猎豹清理大师的清理规则，老的核心业务，数据量较大，但是开发设计思路陈旧，坑也很多}
+\cvitem{工作内容}{文档缺失严重的情况下，维护上百台机器正常运行，根据已知源码分析解决和跟进反馈的问题}
 \cvitem{技术栈}{golang、python、c++、java、php、linux、nginx、mysql、redis、mongodb、git}
 
-\subsection{\textbf{区块链相关}}
-\cventry{}{后端研发工程师}{}{}{}{}
+\newpage
+\subsection{\textbf{区块链相关业务}}
+\cventry{}{Web后台开发}{}{}{}{}
 \cvitem{项目介绍}{18年公司对区块链做了很多尝试，其中参与了很多很杂的项目，包括去中心化交易所的实时价格抓取和涨跌推送，Dapp后端(社交聊天模块)，Eth自建节点的优化等}
-\cvitem{工作内容}{区块链相关的项目比较杂，但也打开了眼界，学到很多以前接触不到的技术点。其中主要涉及到的技术点有，安卓ios的推送原理，signal聊天加密协议源码阅读，eth交易过程源码阅读、自学前端vue.js完成后台页面、docker服务的打包和分布式部署等。}
+\cvitem{工作内容}{区块链相关的项目比较杂，但也打开了眼界，学到很多以前接触不到的技术点。其中主要涉及到的技术点有，安卓ios的推送原理，signal聊天加密协议源码阅读，eth交易过程源码阅读、自学前端vue.js完成后台页面、docker服务的打包和分布式部署等}
 \cvitem{技术栈}{python、java、go、vue.js、linux、android、docker、nginx、mongodb、PostgreSQL、redis、mysql、git}
 %\newpage
 \subsection{\textbf{猎豹游戏盒子}}
-\cventry{}{C++ windows客户端研发工程师}{}{}{}{}
-\cvitem{项目介绍}{一款页游平台win客户端，支持游戏加速，游戏辅助等。}
-\cvitem{工作内容}{独立从0到1完成开发上线，完成登录注册，小号管理，截图，视野缩放，游戏加速，游戏挂机(敏感问题，此功能没有上线)等功能，项目到后期开始自学go语言，完成一些简单的后端业务接口，为转岗服务端奠定了基础。另外同时也在维护一款内置在金山毒霸的金山游戏盒子，因为项目老，需求较少，在简历中省略。}
+\cventry{}{C++ Windows客户端开发}{}{}{}{}
+\cvitem{项目介绍}{一款页游平台win客户端，支持游戏加速，游戏辅助等}
+\cvitem{工作内容}{维护金山游戏盒子，且独立完成金山游戏盒子的重写，用时一个月，从0到1完成开发上线，完成登录注册，小号管理，截图，视野缩放，游戏加速，游戏挂机(敏感问题，此功能没有上线)等功能，项目到后期出于兴趣开始自学go语言，接一些简单的后端需求，分担后端同学的压力}
+\cvitem{软件地址}{http://box.wan.liebao.cn/website/}
 \cvitem{技术栈}{c++、js、golang、windows、SOUI、IE内核、svn}
 
-\newpage
+%\newpage
 \subsection{\textbf{hao123桔子浏览器}}
-\cventry{}{C++ windows客户端研发工程师}{}{}{}{}
-\cvitem{项目介绍}{当时是hao123官方浏览器，基于IE内核，主打安装包体积小，安装包不到2M。}
-\cvitem{工作内容}{参与产品的开发迭代，并且修复现有bug，参与的开发任务主要有双核版的预研和开发、自动化构建打包平台和截图、视频下载、图片放大器等特色功能点。其中最大的收获是学习了部分chrome源码，了解到开源的魅力。}
+\cventry{}{C++ Windows客户端开发}{}{}{}{}
+\cvitem{项目介绍}{当时是hao123官方浏览器，百度合作项目，基于IE内核，主打安装包体积小，安装包不到2M}
+\cvitem{工作内容}{参与产品的开发迭代，并且修复现有bug，参与的开发任务主要有双核版的预研和开发、自动化构建打包平台和截图、视频下载、图片放大器等特色功能点。其中最大的收获是学习了部分chrome源码，了解到开源的魅力}
 \cvitem{技术栈}{c++、js、php、python、windows、WTL、IE内核、chrome内核、svn}
 
 \section{工作经历}
 \cventry{2017.12----至今}{猎豹移动}{高级Golang后端研发}{T4}{}{}
-\cvitem{}{后端接口开发、服务器维护、技术架构、devops、技术分享等}
-\cvitem{}{负责工具后端组的需求预研、开发和维护等，同时也负责游戏后端组的后端开发、框架搭建、devops建设等工作}
-\cventry{2016.7--2017.12}{猎豹移动}{高级C++客户端研发}{T4}{}{}
-\cvitem{}{客户端研发、产品迭代跟进、技术文档等}
-\cvitem{}{主要负责windows平台两个游戏盒子产品迭代的开发和bug修复工作}
-\cventry{2015.5----2016.7}{四象联创}{C++客户端研发}{}{}{}
-\cvitem{}{客户端研发、团队技术交接等}
-\cvitem{}{主要负责PC浏览器产品迭代的开发和bug修复工作}
+\cvitem{}{后端研发，各种搬砖、学习，帮助公司RUSH新业务领域，各种带人各种分享}
+\cvitem{}{主要负责工具和游戏app的后端接口服务和Web后台和组件的后端研发工作，偶尔也会带带人，干一些规范制定，代码重构优化的活儿}
+\cventry{2016.7--2017.12}{猎豹移动}{高级Windows C++客户端研发}{T4}{}{}
+\cvitem{}{客户端研发，独自跟进业务和重构代码}
+\cvitem{}{主要负责支持windows平台两个游戏盒子产品迭代的开发和bug修复工作}
+\cventry{2015.5----2016.7}{四象联创}{Windows C++客户端研发}{}{}{}
+\cvitem{}{客户端研发，学习沉淀，独立完成需求研发}
+\cvitem{}{主要负责支持PC浏览器产品迭代的开发和bug修复工作}
 \cventry{}{}{}{}{}{}
 
 \section{自我评价}
-\cvitem{}{能熟练运用c++、java、golang、python、汇编等语言解决相对复杂的需求，其中对c++和golang有浓厚的兴趣，理解会更为深入一些。对于nginx、redis、mysql、git、docker等常用的工具和数据库也有自己的见解。有一定的架构思维，了解devop，能从0开始搭建后端开发框架。开发思路清晰，学习能力强，对于新接触的框架和语言都能快速上手，并且善于理解实现原理，避开部分坑。能迅速响应需求拥抱变化，高效率与合作部门沟通。另外有两年的windows桌面浏览器开发经验，熟悉chrome内核源码，有内核定制能力。工作前也自学了windows内核和汇编等底层技术。总的来说知识体系比较全面，学习能力很强。}
+\cvitem{}{四年多的工作时间我觉得不算短了，我自己时常总结和反思，和其他人相比我的优劣势是什么？以下是我个人总结的几大特点：}
+\cvitem{}{1、学习能力强，由于有扎实的C++和汇编基础，阅读源码和理解设计思路上都更加顺畅一些，有快速掌握新技术，并且落地到应用的能力。}
+\cvitem{}{2、技术广度广，得益于出色的学习和适应能力，在四年多的时间里，接触到七八门语言，各种业务场景，客户端前后端全栈，且都有产出，这个横向比较来说是比较少见的吧。但是后期我也认识到这样的问题，近一两年开始对后端相关的技术深度下沉。}
+\cvitem{}{3、原则性强，可能是性格原因，对于工作总要做到自己觉得十全十美才罢休，有些和利益不挂钩的事情我也会去做，例如设计代码的过程中，经常会考虑交接和后期别人维护代码的问题。（这一点往好了说可以是责任心强，往坏了说也算有点固执己见）}
 
 % 来自BibTeX文件但不使用multibib包的出版物
 %\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% BibTeX的数字标签
