@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.22)  3 SEP 2020 00:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.22)  8 SEP 2020 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1319,64 +1319,50 @@ File: ctex-scheme-plain.def 2018/01/28 v2.4.12 Plain scheme for generic (CTEX)
 . 
 . Defining command \CTeX with sig. '' on line 746.
 .................................................
- (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
-File: ctex-fontset-mac.def 2018/01/28 v2.4.12 Mac OS X fonts definition (CTEX)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+File: ctex-fontset-fandol.def 2018/01/28 v2.4.12 Fandol fonts definition (CTEX)
 
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'STSong' does not contain script 'CJK'.
+* Font 'FandolSong-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STSong_int=\count288
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "STKaiti/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "STHeiti/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "STSong/BI" (it probably doesn't exist).
-.................................................
+\g__fontspec_family_FandolSong-Regular_int=\count288
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'STSong(0)' created for font 'STSong' with options
-. [Script={CJK},BoldFont={STHeiti},ItalicFont={STKaiti}].
+. Font family 'FandolSong-Regular(0)' created for font 'FandolSong-Regular'
+. with options
+. [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolKai-Regular}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"STSong/OT"
+. - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"STHeiti/OT"
+. - 'bold' (bx/n) with NFSS spec.: <->"[FandolSong-Bold.otf]/OT"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"STKaiti/OT"
+. - 'italic' (m/it) with NFSS spec.: <->"[FandolKai-Regular.otf]/OT"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \songti with sig. '' on line 48.
+. Defining command \songti with sig. '' on line 114.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \heiti with sig. '' on line 49.
+. Defining command \heiti with sig. '' on line 115.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fangsong with sig. '' on line 50.
+. Defining command \fangsong with sig. '' on line 116.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kaishu with sig. '' on line 51.
+. Defining command \kaishu with sig. '' on line 117.
 .................................................
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
@@ -1384,7 +1370,7 @@ File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
 *************************************************
 * xeCJK warning: "CJKfamily-redef"
 * 
-* Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
+* Redefining CJKfamily `\CJKrmdefault' (FandolSong-Regular(0)).
 *************************************************
 \g__fontspec_family_HiraginoSansGB_int=\count289
 .................................................
@@ -1914,19 +1900,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 167.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: AE2CF8C699FAF7AC6FB12CF8BFD98055.
+(rerunfilecheck)             Checksum: E01896624B3196DDFA388185D3D7B2B4.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 34019 strings out of 492970
- 703736 string characters out of 6133938
- 802370 words of memory out of 5000000
- 37516 multiletter control sequences out of 15000+600000
+ 34036 strings out of 492970
+ 705119 string characters out of 6133938
+ 802909 words of memory out of 5000000
+ 37536 multiletter control sequences out of 15000+600000
  552011 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,12n,67p,10394b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,74p,10394b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (5 pages).
