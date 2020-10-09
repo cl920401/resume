@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.22)  19 SEP 2020 18:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.22)  9 OCT 2020 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1810,109 +1810,109 @@ LaTeX Font Warning: Font shape `TU/HiraginoSansGB(0)/m/it' undefined
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [1
 
-] [2] [3] [4]
+]
 Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/HiraginoSansGB(0)/m/sl/12'.
+(microtype)             in font `\TU/HiraginoSansGB(0)/bx/n/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
- [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+ [2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 8D7A8082B4A7FB05FBA13ADD8DD0D297.
+(rerunfilecheck)             Checksum: 78F49E394F0B3F581ACBB3AD5AB2A698.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 34036 strings out of 492970
- 705119 string characters out of 6133938
- 799941 words of memory out of 5000000
- 37536 multiletter control sequences out of 15000+600000
+ 34023 strings out of 492970
+ 704180 string characters out of 6133938
+ 800803 words of memory out of 5000000
+ 37523 multiletter control sequences out of 15000+600000
  552011 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,11n,74p,10394b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,74p,10394b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.pdf (5 pages).
+Output written on resume.pdf (4 pages).

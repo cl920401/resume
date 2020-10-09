@@ -62,93 +62,73 @@
     \item 开发工具:nginx、mysql、redis、mongoDB、kafka、etcd、k8s、docker、shell、git、svn等
 \end{itemize}}
 
+\section{工作经历}
+\cventry{2017.12----至今}{猎豹移动}{高级Golang后端研发}{T4}{}{}
+\cvitem{}{后端研发，支持过公司多个核心后端业务，目前负责机器人某业务线}
+\cvitem{}{负责过机器人、工具app的后端接口服务和Web后台和组件的后端核心研发工作，目前负责某个业务线的整体对接}
+\cventry{2016.7--2017.12}{猎豹移动}{高级Windows C++客户端研发}{T4}{}{}
+\cvitem{}{win32客户端研发，独自跟进业务和重构代码}
+\cvitem{}{主要负责支持windows平台两个游戏盒子产品迭代的开发和bug修复工作}
+\cventry{2015.5----2016.7}{四象联创}{Windows 浏览器内核开发}{}{}{}
+\cvitem{}{win32客户端研发，学习沉淀，独立完成需求研发}
+\cvitem{}{主要负责支持PC浏览器产品迭代的开发和bug修复工作}
+\cventry{}{}{}{}{}{}
+
 \section{项目经验}
 
 \subsection{\textbf{Mini机器人服务端}}
 \cventry{}{猎户AI服务机器人-Mini 服务端接口人}{}{}{}{}
-\cvitem{关键词}{快速落地、超长链路、多方对接、后端组长}
 \cvitem{项目介绍}{mini机器人是ToC的机器人，参与过公司服贸会展出，需要对接机器人端系统层到应用层，官方app，nlp平台等，是一个链路超长、比较庞大的系统}
-\cvitem{工作内容}{服务端组owner（平均3～5人），整体方案的设计，核心功能的研发，团队的整体进度把控、开发规范制定、devops等，同时推进了部门的微服务架构演进}
+\cvitem{工作内容}{服务端组owner（平均3～5人），负责超过5个部门的跨部门对接，结合ci工具和测试驱动对开发流程优化，提升开发效率；整体微服务架构的设计，基于kong网关插件实现了非侵入式的业务账号鉴权}
 \cvitem{技术栈}{golang、linux、k8s、etcd、docker、kong、elk、mysql、redis、kafka、mqtt、git}
 
-\newpage
-\subsection{\textbf{OrionBase}}
-\cventry{}{Golang Web后台开发}{}{}{}{}
-\cvitem{关键词}{机器人Paas平台、账号权限系统、核心模块}
-\cvitem{项目介绍}{OrionBase是一个机器人开发者平台，主要支持对机器人的远程发布和操作，并且提供查看崩溃，数据总览，监控预警等基础服务。支持公司AI场景落地的Paas平台}
-\cvitem{工作内容}{主要负责权限和账号体系的设计和研发，以及各种业务数据聚合接口的开发和其他功能的维护工作。值得一提的是，这个项目用了微服务架构的思路，网关统一在kong配置，后面代理了多个微服务}
-\cvitem{技术栈}{golang、linux、k8s、docker、kong、elk、mysql、redis、Elasticsearch、git}
-
-\subsection{\textbf{DMP平台}}
+\subsection{\textbf{OrionBase、DMP平台}}
 \cventry{}{Golang Web后台及组件开发}{}{}{}{}
-\cvitem{关键词}{内容分发Paas平台、账号权限系统、核心模块}
-\cvitem{项目介绍}{支持公司工具类app快速迭代的Paas平台，自建内部账号体系，支持产品运营将各种不同类型的工具app快速完成从0到上线，并且支持后期的通用运营维护工作，后台整合了应用的创建和管理能力、广告投放核算平台、配置下发接口数据的运营平台等}
-\cvitem{工作内容}{主要负责权限账号系统的研发和接入，也参与过广告平台（对接facebookAPI）、运营后台（kafka数据流，消息队列组件）等业务平台的研发}
-\cvitem{技术栈}{golang、java、linux、mysql、redis、kafka、git}
+\cvitem{项目介绍}{OrionBase是一个机器人开发者平台，主要支持对机器人的远程发布和操作，并且提供查看崩溃，数据总览，监控预警等基础服务。DMP平台是海外工具的数据中台，负责海外App的资源配置，广告投放，数据挖掘，数据监控等数据业务}
+\cvitem{工作内容}{主要负责权限和账号体系的设计和研发，实现了灵活配置的账号权限管理；并且重构了mq消费队列，两阶段提交保证数据一致性，并且定义通用数据协议，最大程度复用；协同运维推进公司的k8s自动化部署流程，优化了分支管理，提升多人协同开发效率；通过facebook广告数据接口优化，使用二叉树数据结构，接口响应缩减到1/10；平台整体操作日志的设计和研发}
+\cvitem{技术栈}{golang、linux、k8s、docker、kong、elk、mysql、redis、Elasticsearch、kafka、git}
 
 \subsection{\textbf{icfun、趣游戏}}
-\cventry{}{Java后端研发工程师}{}{}{}{}
-\cvitem{关键词}{全流程参与、主导研发节奏、分布式长连接维护}
+\cventry{}{Java后端研发}{}{}{}{}
 \cvitem{项目介绍}{一款安卓小游戏集合软件，googleplay已上线，搜索Icfun可以体验，国内版小米商店搜索趣游戏}
-\cvitem{工作内容}{从框架设计到对接客户端到开发上线包括后期的线上修复，全流程参与，承担了整个团队80\%的工作量，完成了账号体系，盒子主页和游戏列表的配置下发，以及在线自动匹配和手动开房间进行游戏（websocket）等。由于产品策略，国内版不支持多人对战}
+\cvitem{工作内容}{从框架设计到对接客户端到开发上线包括后期的线上修复，全流程参与，从0到1设计游戏匹配服务（人人对战，人机对战），设计实现了可自定义的匹配策略，并且规范了压测流程，其他组follow}
 \cvitem{技术栈}{java (spring、netty)、linux、nginx、mysql、redis、falcon、git}
 
 \newpage
-\subsection{\textbf{清理云服务维护}}
+\subsection{\textbf{海外内容工具APP后端}}
 \cventry{}{多个后端模块维护}{}{}{}{}
-\cvitem{关键词}{高DAU、linux维护和排查调试以及优化、迅速接手老项目，新语言快速学习}
-\cvitem{项目介绍}{清理云用于下发猎豹清理大师的清理规则，老的核心业务，亿级DAU，数据量较大，但是开发设计思路陈旧，坑也很多}
-\cvitem{工作内容}{文档缺失严重的情况下，通过各种linux命令，阅读各种语言代码，维护上百台机器正常运行，分析解决和跟进反馈的问题}
+\cvitem{项目介绍}{海外各种APP的后端服务，高并发场景下的开发、维护和迭代}
+\cvitem{工作内容}{部分老项目的接手需要在文档缺失严重的情况下进行维护，新项目支持业务需求迭代，提供RestfulAPI，并且需要考虑高并发场景}
 \cvitem{技术栈}{golang、python、c++、java、php、linux、nginx、mysql、redis、mongodb、git}
 
+% \newpage
 \subsection{\textbf{区块链相关业务}}
 \cventry{}{Web后台开发}{}{}{}{}
-\cvitem{关键词}{快速学习能力、源码阅读能力}
 \cvitem{项目介绍}{去中心化交易所的实时价格抓取和涨跌推送，Dapp后端(社交聊天模块)，Eth自建节点的优化等}
 \cvitem{工作内容}{区块链相关的项目比较杂，但也打开了眼界，学到很多以前接触不到的技术点。其中主要涉及到的技术点有，安卓ios的推送原理，signal聊天加密协议源码阅读，eth交易过程源码阅读、自学前端vue.js完成后台页面、数据爬取、docker服务的打包和分布式部署等}
 \cvitem{技术栈}{python、java、go、vue.js、linux、android、signal、docker、nginx、mongodb、PostgreSQL、redis、mysql、git}
 
-\subsection{\textbf{海外内容工具APP后端}}
-\cventry{}{Java、Golang后端开发}{}{}{}{}
-\cvitem{关键词}{快速学习、内容分发}
-\cvitem{项目介绍}{支持公司多款工具APP的后端接口、如cmlauncher、keyboard等出海app，主要涉及数据下发、技术预研、业务需求跟进等}
-\cvitem{工作内容}{RestfulAPI的研发，涉及到下发资源，个性化推荐的相关接口}
-\cvitem{技术栈}{java (spring、netty)、golang、linux、nginx、mysql、redis、falcon、git}
-
-\newpage
-\subsection{\textbf{猎豹游戏盒子}}
+% \newpage
+\subsection{\textbf{金山毒霸、猎豹游戏盒子}}
 \cventry{}{C++ Windows客户端开发}{}{}{}{}
-\cvitem{关键词}{windows平台浏览器开发、独立完成系统设计的能力和业务push}
 \cvitem{项目介绍}{一款页游平台win客户端，支持游戏加速，游戏辅助等}
-\cvitem{工作内容}{维护金山游戏盒子，且独立完成金山游戏盒子的重写，用时一个月，从0到1完成开发上线，完成登录注册，小号管理，截图，视野缩放，游戏加速，游戏挂机(敏感问题，此功能没有上线)等功能，项目到后期出于兴趣开始自学go语言，接一些简单的后端需求，分担后端同学的压力}
+\cvitem{工作内容}{维护金山游戏盒子，且独立完成金山游戏盒子的重写，从0到1完成开发上线，完成登录注册，小号管理，截图，视野缩放，游戏加速，游戏挂机(敏感问题，此功能没有上线)等功能，项目到后期出于兴趣开始自学go语言，接一些简单的后端需求，分担后端同学的压力}
 \cvitem{软件地址}{http://box.wan.liebao.cn/website/}
 \cvitem{技术栈}{c++、js、golang、windows、SOUI、IE内核、svn}
-%\newpage
+
+% \newpage
 \subsection{\textbf{hao123桔子浏览器}}
-\cventry{}{C++ Windows客户端开发}{}{}{}{}
-\cvitem{关键词}{windows平台浏览器开发、chrome内核源码改写定制}
-\cvitem{项目介绍}{当时是hao123官方浏览器，百度合作项目，基于IE内核，主打安装包体积小，安装包不到2M}
+\cventry{}{C++ 浏览器内核开发}{}{}{}{}
+\cvitem{项目介绍}{当时是hao123官方浏览器，百度合作项目，基于IE和chrome内核，主打安装包体积小，安装包不到2M}
 \cvitem{工作内容}{参与产品的开发迭代，并且修复现有bug，参与的开发任务主要有双核版的预研和开发、自动化构建打包平台和截图、视频下载、图片放大器等特色功能点。其中最大的收获是学习了部分chrome源码，了解到开源的魅力}
 \cvitem{技术栈}{c++、js、php、python、windows、WTL、IE内核、chrome内核、svn}
 
-\newpage
-\section{工作经历}
-\cventry{2017.12----至今}{猎豹移动}{高级Golang后端研发}{T4}{}{}
-\cvitem{}{后端研发，支持过公司多个核心后端业务，目前负责机器人某业务线}
-\cvitem{}{负责过机器人、工具和游戏app的后端接口服务和Web后台和组件的后端核心研发工作，目前负责某个业务线的整体对接}
-\cventry{2016.7--2017.12}{猎豹移动}{高级Windows C++客户端研发}{T4}{}{}
-\cvitem{}{客户端研发，独自跟进业务和重构代码}
-\cvitem{}{主要负责支持windows平台两个游戏盒子产品迭代的开发和bug修复工作}
-\cventry{2015.5----2016.7}{四象联创}{Windows C++客户端研发}{}{}{}
-\cvitem{}{客户端研发，学习沉淀，独立完成需求研发}
-\cvitem{}{主要负责支持PC浏览器产品迭代的开发和bug修复工作}
-\cventry{}{}{}{}{}{}
-
+% \newpage
 \section{自我评价}
 \cvitem{}{五年的工作时间我觉得不算短了，我自己有时常总结和反思的习惯，和其他人相比我的优劣势是什么？以下是我个人总结的几大特点：}
 \cvitem{}{1、开始的两年主要使用c++，培养了良好的编码习惯和阅读源码的基础，解决问题习惯于从底层原理出发分析，调试能力较强}
 \cvitem{}{2、后面的三年转岗服务端，得益于良好的底层基础，拥抱变化，快速学习java、python、golang等语言，以及微服务生态，并且有一个持续的积累过程}
-\cvitem{}{3、有一些带团队的经验，整体综合素质相较于纯技术向的研发更强，视野相对更全面，同时乐于推进团队的技术转型}
+\cvitem{}{3、注重开发效率，有一些带团队的经验，整体综合素质相较于纯技术向的研发更强，视野相对更全面，同时乐于推进团队的技术转型}
 \cvitem{}{4、较多的从0到1，1到100的经验，从头到尾跟进一个项目的过程中积累一些避坑意识，往往在前期方案设计上愿意花更多的时间，以减轻后期维护成本}
 \cvitem{}{如果贵公司正好需要我的这些特质，期待合作～}
 
