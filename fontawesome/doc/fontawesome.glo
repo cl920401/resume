@@ -1,0 +1,9 @@
+\glossaryentry{v4.4.0> =General:>Update to match Font Awesome version 4.4.0, with a total of 585 icons.|hdpindex{}}{1}
+\glossaryentry{v4.3.0-2> =General:>Corrected the (pdf)\hologoRobust {(La)TeX} font definitions to enable scaling, and enabled dvi/ps support.|hdpindex{}}{1}
+\glossaryentry{v4.3.0-1> =General:>Converted the otf font to 1000upm to avoid a bug within xdvipdfmx.|hdpindex{}}{1}
+\glossaryentry{v4.3.0> =General:>Update to match Font Awesome version 4.3.0, with a total of 519 icons, and enabled pdf\hologoRobust {(La)TeX} support.|hdpindex{}}{1}
+\glossaryentry{v3.1.1> =General:>Update to match Font Awesome version 3.1.1, with 53 new icons.|hdpindex{}}{1}
+\glossaryentry{v3.0.2-1> =General:>Corrected the swap of the \cs  {text-height} and \cs  {text-width} icons.|hdpindex{}}{1}
+\glossaryentry{v3.0.2> =General:>First public release (version number set to match the included FontAwesome.otf font version), requiring \hologoRobust {Xe}- or Lua\hologoRobust {(La)TeX}.|hdpindex{}}{1}
+\glossaryentry{v3.0.2-1>\faTextHeight=\verb!*+\faTextHeight+:>Corrected binding.|hdpindex{}}{1}
+\glossaryentry{v3.0.2-1>\faTextWidth=\verb!*+\faTextWidth+:>Corrected binding.|hdpindex{}}{1}
